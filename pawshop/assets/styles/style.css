@@ -22,3 +22,25 @@ header,footer{
 .card button:hover{
     background-color: #bd6d90;
 }
+
+input{
+    border: 1px solid black!important;
+}
+
+aside{
+    width: 50%;
+}
+
+#temaAtualEscuro{
+    display: none;
+}
+
+@media screen and (max-width:1050px){
+    #formularioGrupo{
+        flex-direction: column;
+    }
+
+    #formularioGrupo aside{
+        width: 100%;
+    }
+}
