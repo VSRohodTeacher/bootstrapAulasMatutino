@@ -1,0 +1,68 @@
+:root{
+    --marrom: #302727;
+    --vermelho: #ba2d2df6;
+    --laranjaEscuro: #f2511b;
+    --laranjaClaro: #f2861b;
+    --laranjaClaroTransparente: #f2871b88;
+    --amarelo: #c7c730;
+    --branco: #ffffff;
+}
+
+header{
+    background-color: var(--vermelho);
+}
+
+.nav-link{
+    color: var(--branco)!important;
+}
+
+header button{
+    border-radius: 5px!important;
+}
+
+/* BANNERSECTION */
+
+#bannerImg{
+    height: 40rem;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+#bannerTexto, .carouselMensagem{
+    background-color: var(--laranjaClaroTransparente);
+}
+
+#bannerTexto button, .botaoConta{
+    background-color: var(--marrom);
+    border: 3px solid var(--laranjaEscuro);
+    color: var(--branco);
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+#bannerSection{
+    margin: 80px!important;
+}
+
+@media screen and (max-width: 768px){
+    #bannerImg{
+        height: 30rem;
+    }
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td, th{
+    border: #302727 solid 1px;
+    padding: 3rem;
+}
+
+#topoTabela{
+    background-color: #302727;
+    color: white;
+    position: sticky;
+    top: 60px;
+}
